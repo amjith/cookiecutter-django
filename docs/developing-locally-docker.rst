@@ -98,10 +98,10 @@ using the ``docker-compose run`` command.
 
 To migrate your app and to create a superuser, run::
 
-    $ docker-compose run django python manage.py migrate
-    $ docker-compose run django python manage.py createsuperuser
+    $ docker-compose run dev1 python manage.py migrate
+    $ docker-compose run dev1 python manage.py createsuperuser
 
-Here we specify the ``django`` container as the location to run our management commands.
+Here we specify the ``dev1`` container as the location to run our management commands.
 
 Production Mode
 ~~~~~~~~~~~~~~~~
